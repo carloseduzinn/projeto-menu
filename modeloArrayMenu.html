@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<div class="ABC"
+
+    <br> <hr> <h1 class="menu">Lanches do Primo</h1> <hr> <br>
+    <center> <img src="lanchess.jfif" alt="lanche" class="img" onclick=" primo()"</center>
+    <div class="carlos1"> 
+        
+        <strong><p class="C">Nome do cliente: <span id="nome"></span></p></strong> <br>
+        <h3> <p class="lanche">Lanche escolhido:🍔 <span id="opcao_lanche"></span> </p><br></h3>
+        <h3> <p>Bebida Escolhida:🧃 <span id="opcao_bebida"></span> </p><br></h3>
+        <h3> <p>Sobremesa Escolhida:🍮 <span id="opcao_sobremesa"></span> </p><br> </h3>
+        <button onclick=  "Carlos()" class="btn1" >Fazer Pedido</button><br>
+        <h3><strong> <p class="valor">Valor Total da compra:<span id="total" ></span></p><br> </strong> </h3>
+        <div class="container"></div>
+        
+        
+        
+    </div>
+</div>
+</div>
+<style>
+     
+
+
+     .ABC{
+        background-color: #00900c; 
+     border-color: #fff; 
+    background-image:  linear-gradient(rgb(255, 98, 0), rgb(255, 11, 11), yellow ); 
+      height: 50vw;
+     
+     }
+        
+   /* body{ */
+    /* background-color: #00900c; */
+    /* border-color: #fff; */
+    /* background-image:  linear-gradient(rgb(255, 98, 0), rgb(255, 11, 11)); */
+    /* } */
+
+    .btn1{
+    
+  background-color: #870808;
+  color: #fff;
+  border-bottom: rgb(0, 0, 0);
+  padding: 10px 80px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    animation: backwards;
+  background-color: #ffee31;
+}
+
+
+
+.nome{
+    
+color: rgb(242, 255, 0);
+font-size: large;
+
+
+   }
+
+
+
+.img {
+    width: 8%;
+border-radius: 50px;
+size-adjust: 100%;
+}
+.img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.carlos1{
+    margin-top: -5px;
+    text-align: center;
+}
+.menu{
+    text-align: center;
+text-shadow: 1px 1px rgb(255, 255, 255);
+
+}.valor{
+   
+    color: rgb(255, 0, 0);
+font-size: large;
+
+}
+
+    </style>
+
+
+<body>
+    <script src="modeloArraymenu.js">
+
+    </script>
+</body>
+</html>
